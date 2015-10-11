@@ -1,0 +1,25 @@
+{
+  "name": "mongo",
+  "version": "1.0.0",
+  "description": "mongo db experiments",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaclav-antosik/mongo.git"
+  },
+  "keywords": [
+    "mongodb"
+  ],
+  "author": "Vaclav Antosik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vaclav-antosik/mongo/issues"
+  },
+  "homepage": "https://github.com/vaclav-antosik/mongo#readme",
+  "dependencies": {
+    "mongodb": "^2.0.45"
+  }
+}

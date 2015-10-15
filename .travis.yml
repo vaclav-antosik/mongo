@@ -1,3 +1,9 @@
 language: node_js
 node_js:
 - "4.1"
+env:
+  global:
+    - "FTP_USER=anonymous"
+    - "FTP_PASSWORD="
+after_success:
+    "curl --ftp-create-dirs -T uploadfilename -u $FTP_USER:$FTP_PASSWORD ftp://40.127.98.10"
